@@ -1,0 +1,33 @@
+body {
+    background-color: grey;
+}
+
+
+@keyframes animatedCircle{
+    0%   {background-color: red;
+          transform: rotate(-90deg);}
+    25%  {background-color: black;
+          border-radius: 100%;}
+    50%  {background-color: green;}
+    75%  {background-color: purple;
+          border-radius: 70%;}
+    100% {background-color: orange;
+          transform: rotate(90deg);}
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: animatedCircle;
+    animation-play-state: paused;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+
+}
+
+div:hover {
+    animation-play-state: running;
+}

@@ -1,3 +1,192 @@
+/* General */
+
 body {
-    background-color: ;
+    background-color:rgb(88, 88, 222);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+
+h1 {
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+p {
+    font-size: 20px;
+    margin-left: 2%;
+
+}
+
+h2 {
+    font-size: 20px;
+
+}
+
+h3 {
+    font-size: 15px;
+
+}
+
+li {
+    margin-left: 5%;
+}
+
+/* Back to top button */
+
+#back-to-top > button{
+    background-color:rgb(56, 5, 5);
+    border-radius: 50%;
+    border: solid 1px white;
+    width: 50px;
+    height: 50px;
+}
+
+#back-to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    
+}
+
+#back-to-top:hover > button {
+    border: solid 1px brown;
+    background-color:brown;
+
+}
+
+#back-to-top > button {
+    text-decoration: none;
+    color: brown;
+}
+
+#back-to-top:hover > button {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* header */
+
+#top {
+    display: flex;
+    background-color: rgb(4, 4, 73);
+    color: wheat;
+    padding: 2rem;
+    padding-bottom: 4rem;
+    padding-top: 0rem;
+    height: 40vh;
+}
+
+.header-content {
+    padding: 3rem;
+}
+
+#header-image {
+    display: flex;
+    padding-top: 2rem;
+    border-radius: 30%;
+    width: 250px;
+    height: 37vh;
+}
+
+
+/* Content */
+
+main {
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    padding: 0 15vw;
+}
+
+/* Hero*/
+.hero {
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    text-align: center;
+    color: rgb(13, 0, 0);
+    
+    
+    background-image: url(https://www.shutterstock.com/image-photo/web-development-coding-programming-internet-260nw-1141706672.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero h1 {
+    font-size: 12em;
+    color: wheat;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.hero h2 {
+    font-size: 5em;
+    color: wheat;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+/* Navigation */
+
+#navbar {
+    background-color: rgb(23, 23, 23);
+    color: blue;
+    text-align: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    margin: 0 4vw;
+}
+
+.nav-link:hover {
+    color: yellow;
+    text-decoration: none;
+}
+button:hover {
+    background-color: yellow;
+    text-decoration: none;
+}
+
+/* Footer*/
+
+#footer {
+    margin-top: 4rem;
+    background-color: rgb(4, 4, 73);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+.button {
+    color: black
+}
+
+.button-link {
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    margin: 0 4vw;
+}
+
+.button-link:hover {
+    color: yellow;
+    text-decoration: none;
+}
+button:hover {
+    background-color: yellow;
+    text-decoration: none;
 }

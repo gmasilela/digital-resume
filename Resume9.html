@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Digital Resume</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+<!--Navigation Bar-->
+
+<nav id="navbar">
+    <a class="nav-link" href="#apply">Experience</a> |
+    <a class="nav-link" href="#apply">skills</a> |
+    <a class="nav-link" href="#apply">Education</a> |
+    <a class="nav-link" href="#apply">Contact</a> 
+</nav>
+
+<!--Hero-->
+
+<section class="hero">
+    <div class="hero-inner">
+        <h1>Glad Masilela</h1>
+        <h2>Web Developer</h2>
+</section>
+
+<!--Header-->
+
+<header id="top">
+        <div>
+        <img id="header-image" src="./images/header-image.jpg" alt="header-image">
+    </div>
+
+    <div class="header-content">
+        <h1>Glad Masilela</h1>
+        <h2>Software Development Student</h2>
+        <p>I am a Software developer in training at <a href="https://www.codespace.co.za/">Codespace Academy</a>. I am extremely motivated to constantly develop my skills and grow professionally. I am confident in my ability to come up with interesting and vibrant ideas.</p>
+    </div>
+</header>
+
+<!--button to go to the top-->
+
+<a id="back-to-top" href="#top">
+    <button >
+        &uarr;
+    </button>
+</a>
+
+<!--main info-->
+
+<main id="content">
+    <section id="Experince" class="section">
+        <article class="Experince">
+            <h2 id="apply">Experience</h2>
+            <h3>The Click Foundation</h3> [2121 - present]
+            <p>Computer lab facilitator at the school. Monitoring the devices and also the learners.</p>
+            <h3>Edgefield Markerting</h3> [2020 -2021]
+            <p>Working as an ambassador, representing a bank. Approach clients and selling them products.</p>
+        </article>
+    </section>
+
+    <section id="Skills" class="section">
+        <article class="Skills">
+            <h2 id="apply">Skills</h2>
+            <li>Web Design</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li><a href="./animation.html">Animation</a></li>
+            <li><a href="./grid.html">Grid</a></li>
+            <li><a href="./flexbox.html">Flexbox</a></li>
+            <li>Wireframe Creation</li>
+            <li>Problem-Solving</li>
+            <li>Computer Literacy</li>
+            <li>Time Management</li>
+            <li>Strong Communication</li>
+        </article>
+    </section>
+
+    <section id="Education" class="section">
+        <article class="Education">
+            <h2 id="apply">Education</h2>
+            <h3>Secondary School</h3>
+            <li>Ekangala Secondary School [2015]</li>
+            <h3>Yenza Izinto</h3>
+            <li>Microsoft Digital Literacy v.2 [2022]</li>
+            <h3>Code Space Academy</h3>
+            <li> Development <i>(still in training)</i>[2023]</li>
+        </article>
+    </section>
+
+    <section id="Contact" class="section">
+        <article class="Contact">
+            <h2 id="apply">Contacts</h2>
+                <ul> Phone number: 0731628647
+                    <br>
+                    Alternative: 0710352259
+                    <br>
+                    Email: g.masilela@lab.clicklearning.org
+                </ul>
+        </article>
+    </section>
+</main>
+
+<!--Footer-->
+
+<footer id="footer">
+    <nav id="footer-links">
+        <button><a class="button" href="g.masilela@lab.clicklearning.org">Email</a></button> |
+        <button><a class="button" href="https://https://github.com/gmasilela">Web</a></button> |
+        <button><a class="button" href="https://www.linkedin.com/in/glad-musa-masilela-0a7061272?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BujxU8AbDTFKvkpRREyfmbg%3D%3D">linkedIn</a></button>
+    </nav>
+ 
+    <br>
+
+<!--FORMS-->
+
+<form action="https://formsubmit.co/musamasilela56@gmail.com" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" name="name" required>
+    <p><label for="mail">Email:</label>
+    <input type="email" name="email" required></p>
+
+  <!--drop box-->
+
+        <p><label for="feedbackStatement">Choose from the options below:</label></p>
+            <select name="_subject" id="subject">
+                <option value="problem 1">option 1</option> 1</option required>
+                <option value="problem 2">option 2</option>
+                <option value="problem 3">option 3</option>
+
+          </select>
+          <p><label for="message">Please state below the reason for your contact:</label></p>
+          <textarea name="message" cols="50" rows="7" placeholder="(optional)"></textarea>
+
+          <!--feedback buttons-->
+
+          <p><label for="feedbackStatement">Rate your experince in our website:</label></p>
+            <p>
+                <input type="radio" name="rating" value="Good" required>
+                <label for="rating">Good</label>
+                <input type="radio" name="rating" value="Okay">
+                <label for="rating">Okay</label>
+                <input type="radio" name="rating" value="Poor">
+                <label for="rating">Poor</label>
+            </p>
+            <p><button type="submit">Send</button></p>
+
+</form>
+
+</footer>
+
+</body>
+</html>
