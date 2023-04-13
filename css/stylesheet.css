@@ -190,3 +190,10 @@ button:hover {
     background-color: yellow;
     text-decoration: none;
 }
+
+/* Responsive Images*/
+
+picture {
+    margin: 1%;
+    padding: 10%;
+}

@@ -1,7 +1,21 @@
+/* body*/
+
 body {
-    background-color: grey;
+    background-color: burlywood;
+    margin-left: 30px;
+    
 }
 
+h1 {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/*keyframes*/
 
 @keyframes animatedCircle{
     0%   {background-color: red;
@@ -16,6 +30,8 @@ body {
 }
 
 div {
+    margin-left: 50%;
+    margin-top: 2rem;
     width: 100px;
     height: 100px;
     background-color: red;
@@ -30,4 +46,13 @@ div {
 
 div:hover {
     animation-play-state: running;
+}
+
+/* home button */
+
+button {
+    background-color: red;
+    margin-left: 5%;
+    height: 2rem;
+    width: 5rem;
 }

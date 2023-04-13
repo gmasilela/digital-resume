@@ -1,0 +1,84 @@
+/*body*/
+
+body {
+    background-color: burlywood;
+}
+
+/* Rows*/
+nav ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+li {
+    padding: 0.5rem;
+}
+
+nav a {
+    background-color: blue;
+    padding: 1rem;
+    color: black;
+    border-radius: 10%;
+}
+
+a:hover {
+    background-color: rgb(75, 75, 218);
+    color: white;
+}
+
+/* Column*/
+
+div ul {
+    list-style: none;
+    width: 75vw;
+    display: flex;
+    
+}
+
+p {
+    padding: 15px;
+    margin: 15px;
+    margin-left: 15%;
+    background-color: rgb(77, 77, 250);
+    flex-basis: 20rem;
+    border-radius: 10%;
+}
+
+/* Center*/
+
+.parent {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.child {
+    background-color: rgb(73, 73, 246);
+    color: white;
+    padding: 5rem;
+    border-radius: 50%;
+}
+.child:hover {
+    background-color: rgb(75, 75, 218);
+    color: white;
+}
+
+/*Headings*/
+
+h1 {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

@@ -1,0 +1,39 @@
+body {
+    background-color: burlywood;
+}
+
+h1 {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Grid-Blocks */
+
+.categories {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.category {
+    padding: 5px;
+    background-color: blue;
+    margin: 1rem;
+}
+
+.category:hover {
+    background-color:gold;
+}
+
+/* home button */
+
+button {
+    background-color: rgb(167, 167, 230);
+    margin-left: 5%;
+    height: 2rem;
+    width: 5rem;
+}
+
