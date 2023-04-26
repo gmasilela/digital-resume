@@ -142,6 +142,8 @@ main {
 /* Navigation */
 
 #navbar {
+    position: sticky;
+    top: 0px;
     background-color: rgb(23, 23, 23);
     color: blue;
     text-align: center;
